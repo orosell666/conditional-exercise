@@ -1,6 +1,9 @@
 .filters {
   background: white;
   width: 100%;
+  justify-content: space-evenly;
+  margin-left: auto;
+  margin-right: auto;
 }
 .filters li {
   display: inline-block;
@@ -57,29 +60,19 @@
   font-size: 16px;
   font-weight: 300;
   color: #999;
-  position: relative;
 }
 .widget h1 {
-  display: inline;
-
-  margin-left: auto;
-  margin-right: auto;
-  font-size: 22px;
+  margin: 60px 0 20px;
+  font-size: 26px;
   color: #000;
-  padding-left: 10px;
-  top: 50px;
 }
 .widget h2 {
   top: 50px;
 }
 .widget h3 {
   font-size: 12px;
-  display: inline;
-  padding-left: 100px;
-  margin-left: auto;
-  margin-right: auto;
-  top: 50px;
 }
+
 .widget ul {
   position: absolute;
   top: 20px;
